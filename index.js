@@ -102,7 +102,9 @@ var deprecatedTargets = [
 ]
 
 var futureTargets = [
-  {runtime: 'electron', target: '8.0.0-beta.0', abi: '76', lts: false}
+  {runtime: 'electron', target: '8.0.0-beta.0', abi: '76', lts: false},
+  // https://github.com/nodejs/node/blob/master/doc/abi_version_registry.json
+  {runtime: 'electron', target: '9.0.0-nightly', abi: '80', lts: false}
 ]
 
 var allTargets = deprecatedTargets
